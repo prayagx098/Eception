@@ -1,0 +1,40 @@
+EXCEPTION HANDLING IN js
+
+An excecution signifies the presence of an abnormal condition which requiers special operable thechniques
+
+in programming terms an exception is the anomalous code that breaks the normal flow of the code
+
+Such exception requies specialised programming constructs for its excecution.
+
+
+ ERRORS
+-----------
+
+* EvalError-error occurilng on eval() function
+
+* InternalError-js engine error
+
+* RangeError
+
+* ReferenceError
+
+* SyntaxError
+
+* TypeError
+
+* URLError
+
+
+exception HANDLING
+
+try{}
+
+* The code which needs possible error testing is kept within the try block
+* In case any error occur,it passes to catch{} block for taking suitable action and handle the error
+* Otherwise,it executes the code written within
+
+catch{}
+
+* This block contains either the user-defined exception  handler or the built-in handler
+* This block handles the error of the code by executing the set of statements written within the Block
+* This block executes only when any error-prne code needs to be handled in the try block .Otherwise,the catch block is skipped.
